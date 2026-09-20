@@ -1,4 +1,4 @@
-# MYVC Registration System
+# Volleyball Registration System
 
 A Java-based youth volleyball club registration system designed to manage member information, tournament registrations, and club statistics through both a **JavaFX graphical user interface** and a command-line interface.
 
