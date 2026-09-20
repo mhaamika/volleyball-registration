@@ -2,7 +2,7 @@
 
 A Java-based youth volleyball club registration system designed to manage member information, tournament registrations, and club statistics through both a **JavaFX graphical user interface** and a command-line interface.
 
-The project evolved from a basic Java registration program into a more complete application by introducing a graphical interface, persistent data storage, member search and management functionality, input validation, and object-oriented design.
+The project is a complete application with a graphical interface, persistent data storage, member search and management functionality, input validation, and object-oriented design.
 
 ## Features
 
@@ -98,6 +98,25 @@ The project evolved from a basic Java registration program into a more complete 
 * Data serialization using delimited records
 * Loading and reconstructing objects from persistent data
 
+## Screenshots
+
+1. Main interface
+
+<img width="1440" height="811" alt="Screenshot 2026-09-20 at 11 35 51 AM" src="https://github.com/user-attachments/assets/075d53c6-3e6f-4e79-a425-3fc6d2af83ca" />
+
+2. View members Function
+
+<img width="1440" height="900" alt="Screenshot 2026-09-20 at 11 44 53 AM" src="https://github.com/user-attachments/assets/f7a22aef-58aa-4aee-93ed-9ac721219ccb" />
+
+3. Search Members
+
+<img width="1257" height="697" alt="Screenshot 2026-09-20 at 11 49 13 AM" src="https://github.com/user-attachments/assets/b953bb11-468b-4b24-b9f1-d16d20c7ce23" />
+
+4. Club Statistics
+
+<img width="1298" height="659" alt="Screenshot 2026-09-20 at 11 52 19 AM" src="https://github.com/user-attachments/assets/1f6e74c0-605e-4422-be8f-5e29902d89bc" />
+
+
 ## Project Architecture
 
 The application separates responsibilities across multiple classes rather than placing all functionality into a single program.
@@ -126,23 +145,6 @@ MYVC Registration System
 
 This structure separates the **user interface**, **system logic**, and **data models**, making the application easier to maintain and extend.
 
-## Problem Solving & Development
-
-One of the main goals of this project was to progressively improve a functional Java application rather than rebuilding it from scratch.
-
-The original registration system was extended with additional functionality including:
-
-1. Member search functionality with multiple search criteria
-2. Member editing and deletion
-3. Tournament registration management
-4. File-based persistence
-5. A JavaFX graphical interface
-6. Form-based input validation
-7. Multiple GUI windows for different application operations
-
-This required adapting existing classes and methods while maintaining compatibility with previously implemented functionality.
-
-For example, tournament registrations needed to remain associated with the correct `Member` object when information was saved and later reconstructed from the file.
 
 ## Data Persistence
 
@@ -218,13 +220,5 @@ Potential future enhancements could include:
 * Additional data validation
 * Automated testing
 * Role-based access for administrators
-
-## What This Project Demonstrates
-
-This project demonstrates the ability to take a Java application from a functional command-line implementation and progressively develop it into a more complete software application.
-
-It showcases practical experience with **object-oriented programming, data structures, algorithms, GUI development, file persistence, validation, debugging, and adapting an existing codebase as requirements evolve**.
-
-The project also emphasizes maintainability by separating data models, system operations, and user-interface responsibilities.
 
 
