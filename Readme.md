@@ -4,6 +4,10 @@ A Java-based youth volleyball club registration system designed to manage member
 
 The project is a complete application with a graphical interface, persistent data storage, member search and management functionality, input validation, and object-oriented design.
 
+## How to run the project. 
+
+No dependencies or external downloads required. Simply hit the run button and the project should work as intended
+
 ## Features
 
 * **Member Registration**
